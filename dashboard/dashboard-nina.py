@@ -8,7 +8,7 @@ st.set_page_config(page_title="Bike Rental Dashboard",
                    layout= "centered")
 
 # import data
-df = pd.read_csv('C:\Users\User\Submission-Dicoding\dashboard\day.csv')
+df = pd.read_csv('\dashboard\day.csv')
 df['dteday'] = pd.to_datetime(df['dteday']) # convert dtypes kolom 'dteday' menjadi datetime
 df['year'] = df.dteday.dt.year # ekstrak tahun dan simpan ke kolom baru "year"
 df['month'] = df.dteday.dt.month # ekstrak bulan dan simpan ke kolom baru "month"
