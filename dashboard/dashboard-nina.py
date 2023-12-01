@@ -107,5 +107,5 @@ plt.title("Perbandingan Jumlah Penyewa Sepeda Berdasarkan Status Penyewa Pada Ta
 plt.xlabel("Bulan",fontsize=14)
 plt.ylabel("Total Penyewa",fontsize=14)
 plt.legend(loc="right")
-plt.show()
+
 st.pyplot(fig)
